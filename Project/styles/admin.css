@@ -1,0 +1,93 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    color: #444;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Dashboard container styles */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Button styles */
+.dashboard button {
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard button:hover {
+    background-color: #218838;
+}
+
+/* Form container styles */
+#productForm {
+    max-width: 600px;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+#productForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input field styles */
+#productForm input[type="text"],
+#productForm input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Input focus styles */
+#productForm input[type="text"]:focus,
+#productForm input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+/* Table styles */
+#productTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#productTable th,
+#productTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#productTable th {
+    background-color: #f4f4f4;
+}

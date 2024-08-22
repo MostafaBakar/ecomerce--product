@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Dashboard</title>
+    <link rel="stylesheet" href="../styles/customer.css" />
+  </head>
+  <body>
+    <h1>Customer Dashboard</h1>
+    <button id="logoutButton">Logout</button>
+    <div>
+      <h3>Product List</h3>
+
+      <div>
+        <input type="text" id="filterCategory" placeholder="Search..." />
+        <select id="categoryDropdown">
+          <option value="">All Categories</option>
+        </select>
+        <button id="filterButton">Filter</button>
+      </div>
+
+      <div id="productList"></div>
+    </div>
+    <h3>Shopping Cart</h3>
+    <div id="shoppingCart"></div>
+    <script src="../scripts/customer.js"></script>
+  </body>
+</html>

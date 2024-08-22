@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 5px;
+    color: #0056b3;
+    font-size: 18px;
+    /* text-align: center; */
+}
+
+h3 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Specific Style for the "Continue to Payment" Button */
+#continueToPaymentButton {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Increased padding for emphasis */
+    border: none; /* Rounded corners */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    margin-top: 20px; /* Space above the button */
+    margin-bottom: 10px; /* Space below the button */
+    text-align: center; /* Center the text */
+    display: block; /* Ensure the button is on its own line */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow for a 3D effect */
+}
+
+#continueToPaymentButton:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Product List Styles */
+#filterCategory {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Dropdown List Styles */
+#categoryDropdown {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #fff; /* Background color */
+    cursor: pointer;
+}
+
+#categoryDropdown:hover {
+    border-color: #007bff; /* Change border color on hover */
+}
+
+#filterButton {
+    padding: 8px 15px;
+}
+
+#productList {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Shopping Cart Styles */
+#shoppingCart {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logout Button Styles */
+#logoutButton {
+    float: right;
+    background-color: #dc3545;
+    margin-top: -50px;
+}
+
+#logoutButton:hover {
+    background-color: #c82333;
+}
+
+/* Product List Container */
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    margin-top: 20px;
+}
+
+/* Product Card Styles */
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product-card p {
+    margin: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.product-card .product-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.product-card .add-to-cart {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.product-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #0056b3;
+}
